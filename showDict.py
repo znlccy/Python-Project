@@ -64,7 +64,7 @@ class ShowDict(object):
     def deleteDict(self, spiderMan):
         print(u"删除字典中键为Nation的值")
         print(u"执行命令 del(spiderMan['Nation'])")
-        del(self.spiderMan['Nation'])
+        del(self.spiderMan['nation'])
         self.showDict(spiderMan)
         print(u"清空字典中所有的值")
         print(u"执行命令 spiderMan.clear()")
